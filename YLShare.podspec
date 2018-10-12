@@ -9,15 +9,14 @@
 Pod::Spec.new do |s|
 
     s.name         = 'YLShare'
-    s.version      = '1.0'
+    s.version      = '1.1'
     s.summary      = 'Test Demo'
     s.homepage     = 'https://github.com/LinTransform/WYLCocoaPods'
     s.license      = 'MIT'
     s.authors      = {'LinTransform' => 'lin_transform@163.com'}
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/LinTransform/WYLCocoaPods.git', :tag => s.version}
-    s.source_files = 'MJRefresh/**/*.{h,m}'
-    s.resource     = 'MJRefresh/MJRefresh.bundle'
+    s.source_files = 'Class/*.{h,m}'
     s.requires_arc = true
 
 end
